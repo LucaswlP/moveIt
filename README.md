@@ -20,10 +20,10 @@ Feito na nlw4 de ReactJs da rocketseat nos dias 22 a 26 de fevereiro de 2021.
 Primeiro clone esse projeto na sua maquina colando o comando a seguir no seu terminal
 
 ```bash
-https://github.com/LucaswlP/moveIt.git
+git clone https://github.com/LucaswlP/moveIt.git
 ```
 
-Instale as dependências e rode o projeto com os comandos
+Após acessar a pasta principal instale as dependências e rode o projeto com os comandos
 
 ```bash
 yarn
