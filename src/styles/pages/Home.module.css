@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;  /* vai pegar 100% da altura do navegador , na real vai pegar o view port high que é realmente toda a altura do dispositivo*/
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+    display: flex; /* modo de vizualização flex*/
+    flex-direction: column; /* column porque vai ficar um abaixo do outro*/
+  }
+
+  .container section {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 colunas do mesmo tamanho*/
+    gap: 6.25rem; /* espaçamento entre as colunas  6.25*16 = 100pixels*/
+    align-content: center;
+  }
